@@ -1,0 +1,52 @@
+.caculator .textField:focus {
+    outline: none;
+}
+
+.caculator .textField::selection {
+    background-image: url("images/c.png");
+    color: #fff;
+}
+
+.caculator input[type="button"]:focus {
+    outline: none;
+}
+
+.caculator .keys .slash:hover,
+.caculator .keys .multiply:hover,
+.caculator .keys .sub:hover,
+.caculator .keys .add:hover {
+    color: #3c3b3b;
+    background-image: linear-gradient(120deg, #d9eced 0%, #8aaeb0 100%);
+    font-size: 2.2rem;
+    transition: all 1s ease;
+}
+
+.caculator .keys .del:hover {
+    background-image: linear-gradient(120deg, #ededed 0%, #b6b9bc 100%);
+    transition: all 0.3s ease;
+}
+
+.caculator .keys .arrow:hover {
+    background-image: linear-gradient(120deg, #ededed 0%, #b6b9bc 100%);
+    transition: all 0.3s ease;
+}
+
+.caculator .keys .one:hover,
+.caculator .keys .two:hover,
+.caculator .keys .three:hover,
+.caculator .keys .four:hover,
+.caculator .keys .five:hover,
+.caculator .keys .six:hover,
+.caculator .keys .seven:hover,
+.caculator .keys .eight:hover,
+.caculator .keys .nine:hover,
+.caculator .keys .zero:hover,
+.caculator .keys .dot:hover {
+    color: #49897f;
+    background-image: linear-gradient(120deg, #f0f0f0 0%, #d4cedc 100%);
+    font-size: 2.2rem;
+}
+
+.caculator .keys .equal:hover {
+    background-image: linear-gradient(120deg, #b4c7c4 0%, #4a9689 100%);
+}
